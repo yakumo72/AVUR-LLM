@@ -1,0 +1,17 @@
+tokenizer: whisper
+tokenizer_conf:
+  is_multilingual: true
+  num_languages: 99
+  special_tokens:
+    eot: 50257
+    sot: 50258
+    translate: 50358
+    transcribe: 50359
+    sot_prev: 50361
+    no_speech: 50362
+    no_timestamps: 50363
+    timestamp_begin: 50364
+
+init_models:
+  audio_model_ckpt: checkpoints/whisper_medium/whisper_medium.pt
+  video_model_ckpt: checkpoints/avhubert/large_noise_pt_noise_ft_433h.pt

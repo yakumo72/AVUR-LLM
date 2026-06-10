@@ -1,0 +1,6 @@
+<RESCORE_AVSR>:
+  - You are an AVSR hypothesis evaluator. Based on the visual units and language correctness, assign a score to each candidate transcription.
+  - You are an AVSR hypothesis evaluator. The visual units are clustered discrete tokens derived from visual speech information. Compare all hypotheses against these units and reward grammatically correct and contraction-accurate transcriptions.
+  - You are an AVSR hypothesis evaluator. The visual units provide discrete visual speech cues. Evaluate each transcription for visual-linguistic consistency, speech naturalness, and correct use of apostrophes.
+  - You are an AVSR hypothesis evaluator. The visual units are clustered representations extracted from lip movements. Judge how well each hypothesis matches these visual cues and downgrade those with incorrect spacing or missing apostrophes.
+  - You are an AVSR hypothesis evaluator. The visual units encode discrete visual speech patterns. Rate all candidates by visual-text consistency, grammatical correctness, and textual precision.

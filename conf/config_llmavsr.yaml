@@ -1,0 +1,13 @@
+init_models:
+  audio_model_ckpt: checkpoints/whisper_medium/whisper_medium.pt
+  video_model_ckpt: checkpoints/avhubert/large_noise_pt_noise_ft_433h.pt
+
+llm_mode: rescore
+llm_path: path/to/Llama-2-7b-hf
+prompt_path: path/to/prompt_en.yaml
+
+model: llmavsr_refine
+
+tokenizer: huggingface
+tokenizer_conf:
+  llm_path: path/to/Llama-2-7b-hf
